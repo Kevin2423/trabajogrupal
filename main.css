@@ -1,0 +1,79 @@
+:root{
+    --main--color:rgba(26, 25, 75, 0.87);
+    --color--principal:#fafa8a;
+    --color--secundario:#c37b4c;
+    --color--white:rgb(255, 255, 255);
+    --color--amarillo:#d7b295bb;
+    --color--negroverdoso: #748b7e;
+}
+
+*{
+    font-family: 'Orbitron', sans-serif;
+}
+
+.styleTittle{
+    background-color: var(--color--secundario);
+    border-radius: 14px;
+    padding: 5px;
+
+    color: var(--color--white);
+}
+
+/*  */
+
+.cuerpo{
+    background-image: url('./imagenes/background.webp');
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenido{
+   background-color: var(--color--amarillo);
+   border-radius: 15px;
+
+   margin-top: 20px;
+   padding: 10px;
+   width: 50%;
+}
+
+/* Creditos */
+
+.footer{
+    background-color: var(--color--amarillo);
+    border-radius: 15px;
+
+    margin-top: 20px;
+    padding: 10px;
+    width: 50%;
+}
+
+.footer>span{
+    display: block;
+}
+
+.styleLink{
+    text-decoration-line: none;
+    font-weight: bold;
+    color: var(--main--color);
+    display: block;
+    margin: 10px 0 10px 10px;
+}
+
+.styleLink:hover{
+    color:var(--color--white);
+}
+
+.icon-return{
+    color: var(--color--white);
+    font-size: 30px;
+    margin-top: 10px;
+}
+.icon-return:hover{
+    color: var(--main--color);
+}
